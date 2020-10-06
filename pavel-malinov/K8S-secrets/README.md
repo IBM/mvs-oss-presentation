@@ -2,19 +2,19 @@
 
 ## What we are going to talk about
 
-- [ ] https://kind.sigs.k8s.io/
-- [ ] Secret Review
-    - [ ] K8S secret vs K8S configmap
-    - [ ] How ETCD stores it
-    - [ ] Access control to a secret(ServiceAccounts/Roles and kubelet access to a secret)
+- [x] https://kind.sigs.k8s.io/
+- [x] Secret Review
+    - [x] K8S secret vs K8S configmap
+    - [x] How ETCD stores it
+    - [x] Access control to a secret(ServiceAccounts/Roles and kubelet access to a secret)
 
 
 
 
-- [ ] Today's Options
-    - [ ] Vault Injection
-    - [ ] Sealed Secrets (kind of different concern)
-    - [ ] [csi-secret-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
+- [x] Today's Options
+    - [x] Vault Injection
+    - [x] Sealed Secrets (kind of different concern)
+    - [x] [csi-secret-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
 
 
 
