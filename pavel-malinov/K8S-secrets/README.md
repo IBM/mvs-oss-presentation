@@ -17,7 +17,6 @@
     - [x] [csi-secret-driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
 
 
-
 ## Reference links 
 * [IBM Github resource locations](https://github.com/IBM/mvs-oss-presentation)
 * [Design Doc](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/auth/secrets.md)
