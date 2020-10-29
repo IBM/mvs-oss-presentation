@@ -6,7 +6,7 @@ docker network create footloose-cluster
 
 docker pull korvus/debian10
 
-footloose -c footloose-flannel.yaml create
+footloose -c footloose-calico.yaml create
 
 footloose ssh root@node0 -- "env INSTALL_K3S_SKIP_DOWNLOAD=true /root/install-k3s.sh"
 env k3stoken=$(footloose ssh root@node0 -- cat /var/lib/rancher/k3s/server/node-token)
