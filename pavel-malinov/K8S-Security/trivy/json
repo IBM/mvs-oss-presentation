@@ -1,0 +1,45 @@
++--------------+------------------+----------+-------------------+---------------+---------------------------------------+
+|   LIBRARY    | VULNERABILITY ID | SEVERITY | INSTALLED VERSION | FIXED VERSION |                 TITLE                 |
++--------------+------------------+----------+-------------------+---------------+---------------------------------------+
+| libcrypto1.1 | CVE-2021-23839   | HIGH     | 1.1.1g-r0         | 1.1.1j-r0     | openssl: incorrect SSLv2              |
+|              |                  |          |                   |               | rollback protection                   |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23839 |
++              +------------------+          +                   +               +---------------------------------------+
+|              | CVE-2021-23840   |          |                   |               | openssl: integer                      |
+|              |                  |          |                   |               | overflow in CipherUpdate              |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23840 |
++              +------------------+----------+                   +---------------+---------------------------------------+
+|              | CVE-2020-1971    | MEDIUM   |                   | 1.1.1i-r0     | openssl: EDIPARTYNAME                 |
+|              |                  |          |                   |               | NULL pointer de-reference             |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2020-1971  |
++              +------------------+          +                   +---------------+---------------------------------------+
+|              | CVE-2021-23841   |          |                   | 1.1.1j-r0     | openssl: NULL pointer dereference     |
+|              |                  |          |                   |               | in X509_issuer_and_serial_hash()      |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23841 |
++--------------+------------------+----------+                   +               +---------------------------------------+
+| libssl1.1    | CVE-2021-23839   | HIGH     |                   |               | openssl: incorrect SSLv2              |
+|              |                  |          |                   |               | rollback protection                   |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23839 |
++              +------------------+          +                   +               +---------------------------------------+
+|              | CVE-2021-23840   |          |                   |               | openssl: integer                      |
+|              |                  |          |                   |               | overflow in CipherUpdate              |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23840 |
++              +------------------+----------+                   +---------------+---------------------------------------+
+|              | CVE-2020-1971    | MEDIUM   |                   | 1.1.1i-r0     | openssl: EDIPARTYNAME                 |
+|              |                  |          |                   |               | NULL pointer de-reference             |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2020-1971  |
++              +------------------+          +                   +---------------+---------------------------------------+
+|              | CVE-2021-23841   |          |                   | 1.1.1j-r0     | openssl: NULL pointer dereference     |
+|              |                  |          |                   |               | in X509_issuer_and_serial_hash()      |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2021-23841 |
++--------------+------------------+          +-------------------+---------------+---------------------------------------+
+| musl         | CVE-2020-28928   |          | 1.1.24-r8         | 1.1.24-r10    | In musl libc through 1.2.1,           |
+|              |                  |          |                   |               | wcsnrtombs mishandles particular      |
+|              |                  |          |                   |               | combinations of destination buffer... |
+|              |                  |          |                   |               | -->avd.aquasec.com/nvd/cve-2020-28928 |
++--------------+                  +          +                   +               +                                       +
+| musl-utils   |                  |          |                   |               |                                       |
+|              |                  |          |                   |               |                                       |
+|              |                  |          |                   |               |                                       |
+|              |                  |          |                   |               |                                       |
++--------------+------------------+----------+-------------------+---------------+---------------------------------------+
